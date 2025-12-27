@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import DotGrid from "./components/OGLBackground";
 import GradualBlur from "./ui_components/GradualBlur"
 import Resume from "./components/Resume";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         exponential={true}
         opacity={1}
       />
+      <SpeedInsights />
 
     </div>
   );
