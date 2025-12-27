@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import myphoto from "../assets/myphoto.jpeg"
+import myphoto from "../assets/mypicture.jpg"
 import { motion } from "framer-motion";
 import BlurText from "../ui_components/BlurText";
 import ProfileCard from "../ui_components/ProfileCard"
@@ -80,9 +80,9 @@ const Hero = () => {
               altText="Full Stack Developer"
               captionText=""
               containerHeight="500px"
-              containerWidth="400px"
+              containerWidth="350px"
               imageHeight="500px"
-              imageWidth="400px"
+              imageWidth="350px"
               rotateAmplitude={5}
               scaleOnHover={1}
               showMobileWarning={false}
