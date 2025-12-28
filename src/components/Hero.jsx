@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import myphoto from "../assets/mypicture.jpg"
+import myphoto from "../assets/myphoto.png"
 import { motion } from "framer-motion";
 import BlurText from "../ui_components/BlurText";
 import ProfileCard from "../ui_components/ProfileCard"
